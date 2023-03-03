@@ -176,7 +176,7 @@ class TexTransformExample(Scene):
         # of the source and target which have matching substring strings.
         # Here, giving it a little path_arc makes each part rotate into
         # their final positions, which feels appropriate for the idea of
-        # rearranging an equation
+
         self.play(
             TransformMatchingStrings(
                 lines[0].copy(), lines[1],
